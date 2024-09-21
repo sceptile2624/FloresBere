@@ -1,5 +1,82 @@
 <!DOCTYPE html>
 <html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío</title>
+    <link rel="stylesheet" href="encuesta.css">
+</head>
+<body>
+    <div class="container">
+        <div class="greetings">
+            <span>S</span>
+            <span>U</span>
+            <span>P</span>
+            <span>E</span>
+            <span>R</span>
+            <span>A</span>
+            <span>L</span>
+            <span>O</span>
+
+        </div>
+        <div class="description">Supera este desafío si quieres la sorpresa debe ser facil para ti, ¿no?</div>
+
+        <form id="quizForm">
+            <!-- Pregunta 1 -->
+            <div class="question">
+                <label for="question1">¿Cuál es mi nombre completo? nota: usa espacios y minusculas</label>
+                <input type="text" id="question1" name="question1">
+                <span class="feedback" id="feedback1"></span>
+            </div>
+
+            <!-- Pregunta 2 -->
+            <div class="question">
+                <label for="question2">¿Cuando es mi cumpleaños? </label>
+                <input type="text" id="question2" name="question2">
+                <span class="feedback" id="feedback2"></span>
+            </div>
+
+            <!-- Pregunta 3 -->
+            <div class="question">
+                <label for="question3">El dia de nuestro aniversario, ¿con qué relaciono ese dia?//Mayuscula</label>
+                <input type="text" id="question3" name="question3">
+                <span class="feedback" id="feedback3"></span>
+            </div>
+
+            <!-- Pregunta 4 -->
+            <div class="question">
+                <label for="question4">¿Que es lo que mas amo de ti en una palabra?// lo cachetes pero mas de lo psicologio xd</label>
+                <input type="text" id="question4" name="question4">
+                <span class="feedback" id="feedback4"></span>
+            </div>
+
+            <!-- Pregunta 5 -->
+            <div class="question">
+                <label for="question5">¿Cuás es mi color favorito?</label>
+                <input type="text" id="question5" name="question5">
+                <span class="feedback" id="feedback5"></span>
+            </div>
+
+            <!-- Pregunta 6 -->
+            <div class="question">
+                <label for="question6">¿Cuál es mi personaje historico favorito?</label>
+                <input type="text" id="question6" name="question6">
+                <span class="feedback" id="feedback6"></span>
+            </div>
+
+            <!-- Botón de envío -->
+            <div class="botones">
+                <button type="submit">Enviar respuestas ¿Segura?</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
